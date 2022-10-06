@@ -1,0 +1,43 @@
+:root{
+    --floatL: left;
+}
+.bgColor{
+    background-color: yellow;
+}
+.widthInh{
+    width: inherit;
+}
+.heightInh{
+    height: inherit;
+}
+.main{
+    width: 800px;
+    height: 600px;
+    font-size: 23px;
+}
+.header{
+    height: 80px;
+    float: var(--floatL);
+}
+.center{
+    height: 429px;
+    margin: 8px 0;
+    float: var(--floatL);
+}
+.nav{
+    width: 110px;
+    float: var(--floatL);
+}
+.article{
+    width: 574px;
+    margin: 0 8px;
+    float: var(--floatL);
+}
+.ads{
+    width: 100px;
+    float: var(--floatL);
+}
+.footer{
+    height: 75px;
+    float: var(--floatL);
+}
